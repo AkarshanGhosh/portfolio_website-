@@ -182,6 +182,71 @@ nav .logo{
     }
 
 }
+/*Section (Navbar contents  )*/
+/*Projects*/
+.section {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Project Panel Styles */
+
+.project-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Adjusted for smaller screens */
+}
+
+.project-panel {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px; /* Adjusted spacing between panels */
+}
+
+.light-green-box {
+    background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.light-green-box:hover img {
+    transform: scale(1.1);
+}
+
+.project-panel img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-panel p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
 /*------- Media queries for header items ------------*/
 @media only screen and (max-width: 600px){
     .header{
@@ -227,4 +292,20 @@ nav .logo{
         line-height: 60px;
         margin-bottom: 20px;
     }
+/*-------------------- navbar contents --------------------*/
+/* Responsive styles for smaller screens */
+    .section {
+        padding: 20px 10px;
+    }
+    .project-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project-panel {
+        margin-bottom: 20px;
+    }
+
 }
+
+
