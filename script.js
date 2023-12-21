@@ -36,3 +36,42 @@ window.onscroll = function () {
         navbar.style.background = 'transparent';
     }
 };
+
+/*function sendEmail() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+  
+    if (!name || !email) {
+      alert('Please enter your name and email.');
+      return;
+    }
+  
+    // You need to implement the server-side logic to send the email here
+    // This is where you'll use a server-side language like Node.js, PHP, Python, etc.
+    // Example (using Fetch API for simplicity):
+    fetch('/sendEmail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    })
+    .then(response => response.json())
+    .then(data => {
+      alert('Email sent successfully!');
+      // You can handle the response from the server here
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('Error sending email!');
+    });
+  }
+  
+  function clearMessage(element) {
+    if (element.value === "Type your message here") {
+      element.value = "";
+    }
+  }*/
+  
+  
