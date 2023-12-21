@@ -65,16 +65,49 @@
     <section id="about-us" class="section">
         <!-- About Us section content -->
     </section>
-
+<!---------------------------------------------------------------------------------------------------------------------------------------------->
     <section id="contacts" class="section">
-        <!-- Contacts section content -->
-    </section>
-
-
-    <script src="script.js"></script>
-                                                <!---------------------- Navbar contents  -------------------------------------->
+        
+        <form action="https://formsubmit.co/ronighosh494@gmail.com" method="POST" id="contactForm">
+                <h2>Contact me here</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required placeholder="Name">
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required placeholder="Email">
     
-    <script>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="Subject" required placeholder="Subject">
+              
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"  required placeholder="Enter Your Message"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <button type="submit">Submit</button>
+          </form>
+          
+          <footer>
+            <div class="logo">
+              <img src="C:\Users\user\Desktop\Personal_site\trials and Error\logo.png" alt="Logo">
+              <p>Hire For Higher</p>
+            </div>
+            <a href="https://www.linkedin.com/in/akarshan-ghosh/" target="_blank"><img src="img/ln.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/rongfx8/" target="_blank"><img src="img/insta.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61554629994541&sk=about" target="_blank"><img src="img/fb.png" alt="Facebook"></a>
+            <a href="https://twitter.com/AkarshanGhosh28" target="_blank"><img src="img/x.png" alt="Twitter"></a>
+          </footer>
+          <script src="script.js"></script>
+          <script src="https://smtpjs.com/v3/smtp.js"></script>
+          
+          
+    </section>
+<!---------------------------------------------------------------------------------------------------------------------------------------------->  
+                                                     <!---------------------- Navbar contents Ends -------------------------------------->
+
+
+                                               
+    
+    <!--<script>
         let navbar = document.querySelector('nav');
         let menuLinks = document.getElementById("menu-link");
 
@@ -89,7 +122,7 @@
                 navbar.style.background = 'transparent';
             }
         }
-    </script>
+    </script>-->
+
 </body>
 </html>
-
