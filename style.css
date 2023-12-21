@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 
 }
 nav{
@@ -87,6 +88,7 @@ nav .logo{
 .btn-light{
     background:transparent;
     text-decoration: underline;
+    color: #000;
      
 }
 .btn-light img{
@@ -105,6 +107,7 @@ nav .logo{
     right: 7.91%;
     bottom: 0;
 }
+
 
 /*-----------Animation-----------*/
 .header h1 span{
@@ -245,6 +248,106 @@ nav .logo{
     margin-top: 10px;
     font-size: 18px;
 }
+/*----------contacts----------*/
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }*/
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 400px; /* Added for better mobile responsiveness */
+    width: 90%; /* Added for better mobile responsiveness */
+    margin: auto; /* Center the form */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align items vertically in the center */
+    height: 80px; /* Set the height of the footer */
+    background-color: #fff;
+    padding: 20px;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+    
+    
+
+  
+  footer a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  footer img:hover {
+    transform: scale(1.1);
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .logo p {
+    margin: 0;
+  }
+
+
+
 
 
 /*------- Media queries for header items ------------*/
@@ -304,6 +407,10 @@ nav .logo{
 
     .project-panel {
         margin-bottom: 20px;
+    }
+  
+    form {
+            max-width: 100%; /* Full width on smaller screens */
     }
 
 }
